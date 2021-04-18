@@ -7,6 +7,7 @@ import PayButton from './Components/PayButton';
 import HomeScreen from './screens/Home';
 import WalletScreen from './screens/Wallet';
 import PayScreen from './screens/Pay';
+import { NavigationEvents } from 'react-navigation';
 
 const Tab = createBottomTabNavigator();
 const icons = {
@@ -51,6 +52,7 @@ export default function Navigation() {
             style:{
                 backgroundColor: '#131418',
                 borderBottomColor: 'rgba(255, 255, 255, 0.2)',
+                
             },
             activeTintColor: '#fff',
             inactiveTintColor: '#92929c',
